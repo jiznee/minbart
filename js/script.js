@@ -92,13 +92,36 @@ $(document).ready(function() {
 		$slickSingleSlider.slick({
 			autoplay: true,
 			autoplaySpeed: 7000,
-			adaptiveHeight: false,
 			draggable: false,
 			prevArrow: '.slide-prev',
 			nextArrow: '.slide-next',
 			adaptiveHeight: true,
 		});
 
+
+		/*
+		 * Start of slick item inner slider
+		 */
+		var $slickItemInner = $('#slider-item-inner');
+		var $slickItemInnerNav = $('#slider-item-inner-nav');
+
+		$slickItemInner.slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			adaptiveHeight: false,
+			draggable: false,
+			prevArrow: '.slide-prev',
+			nextArrow: '.slide-next',
+			asNavFor: $slickItemInnerNav,
+		});
+
+		$slickItemInnerNav.slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			asNavFor: $slickItemInner,
+			dots: true,
+			focusOnSelect: true,
+		});
 	}
 
 });
