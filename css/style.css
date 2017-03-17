@@ -145,7 +145,16 @@ hr {
 	color: inherit;
 }
 
+.col-article-header h3,
 .col-article-header h4 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.col-article-header-highlight {
+	font-size: 25px;
+	color: #00D4F7;
+	line-height: 35px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
