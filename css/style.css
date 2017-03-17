@@ -94,8 +94,16 @@ hr {
 }
 
 .section-banner__title,
-.section-banner__subtitle {
+.section-banner__subtitle,
+.section-banner__meta {
 	color: #fff;
+}
+
+.section-banner__meta a {
+	font-size: 18px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .section-banner--margin-bottom-40 {
@@ -130,6 +138,9 @@ hr {
 }
 
 /* Col */
+.col-article--grid {
+	margin-bottom: 50px;
+}
 .col-article-header a {
 	color: inherit;
 }
@@ -165,6 +176,13 @@ hr {
 
 .col-article-header a:hover .col-article-header-thumbnail img {
 	transform: scale(1.05);
+}
+
+.col-article-meta a {
+	font-size: 18px;
+	color: inherit;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 /* Button */
