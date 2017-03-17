@@ -198,6 +198,35 @@ hr {
 	padding-right: 5px;
 }
 
+/* Nav Tabs */
+.nav-tabs.nav-justified > li > a {
+	border-radius: 0;
+	font-size: 20px;
+	color: inherit;
+	border-bottom: 2px solid #333;
+}
+
+.nav-tabs.nav-justified > .active > a {
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	color: #F55FBA;
+	border-bottom: 2px solid #F55FBA;
+}
+
+.nav-tabs.nav-justified > li > a:hover,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus,
+.nav-tabs.nav-justified > li > a:focus {
+	background-color: transparent;
+	color: #F55FBA;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-width: 2px;
+	border-bottom-color: #F55FBA;
+}
+
 /* Button */
 .btn {
 	border-radius: 0;
