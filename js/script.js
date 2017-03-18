@@ -14,6 +14,8 @@ $(document).ready(function() {
 		// var time = 7;
 		
 		$slick.slick({
+			autoplay: true,
+			autoplaySpeed: 7000,
 			adaptiveHeight: false,
 			draggable: false,
 			prevArrow: '.slide-prev',

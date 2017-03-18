@@ -204,6 +204,7 @@ hr {
 	font-size: 20px;
 	color: inherit;
 	border-bottom: 2px solid #333;
+	font-weight: 700;
 }
 
 .nav-tabs.nav-justified > .active > a {
@@ -1025,46 +1026,46 @@ select{
 }
 
 /* Panel */
-.panel-default {
-    border-color: transparent;
-    box-shadow: none;
+.panel-accordion.panel,
+.panel-group .panel-accordion.panel {
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
-.panel-heading{
-	padding:10px 0;
-}
-
-.panel-title{
-	font-size:20px;
-	font-weight: bold;
-}
-
-.panel-collapse{
-    padding: 15px 0;
-}
-
-.panel-collapse ul{
-	padding-left:20px;
-}
-
-.panel-collapse ul li{
-	line-height: 30px;
-}
-
-.panel-default>.panel-heading {
-    color: #333;
-    background-color: transparent;
-    border-color: transparent;
-    border-bottom: 2px solid #eee;
-}
-
-.panel-group .panel-heading+.panel-collapse>.panel-body {
-	border-top: 0;
-}
-
-.panel-body {
+.panel-accordion .panel-heading {
+	border-radius: 0;
 	padding-left: 0;
 	padding-right: 0;
+	border-bottom: 2px solid #ccc;
+}
+
+.panel-accordion .panel-heading .panel-title,
+.panel-accordion .panel-heading .panel-title a,
+.panel-accordion .panel-heading .panel-icon {
+	font-size: 20px;
+	line-height: 1;
+	font-weight: 400;
+}
+
+.panel-accordion .panel-heading .panel-title--petite,
+.panel-accordion .panel-heading .panel-title--petite a {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.panel-accordion .panel-heading a:hover,
+.panel-accordion .panel-heading a:focus {
+	text-decoration: none;
+}
+
+.panel-accordion .panel-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.panel-accordion .panel-heading + .panel-collapse > .panel-body {
+	border-top: 0;
 }
 
 /* Slick Feed Item */

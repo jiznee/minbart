@@ -79,15 +79,15 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="nav-top">
-							<li class="active"><a href="e-shop">E-Shop</a></li>
-							<li><a href="#">Minbart Story</a></li>
+							<li class="active"><a href="e-shop.html">E-Shop</a></li>
+							<li><a href="minbart-story.html">Minbart Story</a></li>
 							<li><a href="#">Designers</a></li>
-							<li><a href="#">Collaborations</a></li>
-							<li><a href="#">Diaries</a></li>
-							<li><a href="#">What's Said</a></li>
+							<li><a href="collaborations.html">Collaborations</a></li>
+							<li><a href="diaries.html">Diaries</a></li>
+							<li><a href="whats-said.html">What's Said</a></li>
 							<li><a href="#">What's New</a></li>
-							<li><a href="#">Need Help?</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="need-help.html">Need Help?</a></li>
+							<li><a href="contact-us.html">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -114,112 +114,154 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="panel-group" id="categoryAccordion">
-								    <div class="panel panel-default">
-								        <div class="panel-heading">
-								            <h4 class="panel-title">
-								              <a data-toggle="collapse" data-parent="#categoryAccordion" href="#categorycollapse1">Category <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-								            </h4>
+								<div id="category-accordion" role="tablist" aria-multiselectable="true">
+								    
+								    <div class="panel panel-accordion">
+								        <div class="panel-heading" role="tab" id="category-heading">
+								        	<div class="row">
+								        		<div class="col-xs-10">
+								        			<h4 class="panel-title panel-title--petite">
+								        			  <a data-toggle="collapse" role="button" aria-expanded="true" aria-controls="category-collapse" data-parent="#category-accordion" href="#category-collapse">Category</a>
+								        			</h4>
+								        		</div>
+								        		<div class="col-xs-2 text-right">
+								        			<i class="panel-icon fa fa-angle-down" aria-hidden="true"></i>
+								        		</div>
+								        	</div>
 								        </div>
-								        <div id="categorycollapse1" class="panel-collapse collapse in">
-								            <form class="form form--eshop">
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox1">
-								                	<label for="checkbox1">Clothing</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox2">
-								                	<label for="checkbox2">Accessories</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox3">
-								                	<label for="checkbox3">Jewellry</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox4">
-								                	<label for="checkbox4">Shoes</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox5">
-								                	<label for="checkbox5">Bags</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox6">
-								                	<label for="checkbox6">Stationery</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox7">
-								                	<label for="checkbox7">Home Decor</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox8">
-								                	<label for="checkbox8">Minbart Crush</label>
-								                </div>
-								            </form>
-								        </div>
-								    </div>
-								    <div class="panel panel-default">
-								        <div class="panel-heading">
-								            <h4 class="panel-title">
-								              <a data-toggle="collapse" data-parent="#categoryAccordion" href="#categorycollapse2">Designers <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-								            </h4>
-								        </div>
-								        <div id="categorycollapse2" class="panel-collapse collapse in">
-								            <form class="form form--eshop">
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox1">
-								                	<label for="checkbox1">Designer 1</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox2">
-								                	<label for="checkbox2">Designer 2</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox3">
-								                	<label for="checkbox3">Designer 3</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox4">
-								                	<label for="checkbox4">Designer 4</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox5">
-								                	<label for="checkbox5">Designer 5</label>
-								                </div>
-								            </form>
+								        <div id="category-collapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="category-heading">
+								        	<div class="panel-body">
+								        		<form class="form form--eshop">
+								        		    <div class="checkbox">
+								        		    	<input type="checkbox" id="checkbox1">
+								        		    	<label for="checkbox1">Clothing</label>
+								        		    </div>
+								        		    <div class="checkbox">
+								        		    	<input type="checkbox" id="checkbox2">
+								        		    	<label for="checkbox2">Accessories</label>
+								        		    </div>
+								        		    <div class="checkbox">
+								        		    	<input type="checkbox" id="checkbox3">
+								        		    	<label for="checkbox3">Jewellry</label>
+								        		    </div>
+								        		    <div class="checkbox">
+								        		    	<input type="checkbox" id="checkbox4">
+								        		    	<label for="checkbox4">Shoes</label>
+								        		    </div>
+								        		    <div class="checkbox">
+								        		    	<input type="checkbox" id="checkbox5">
+								        		    	<label for="checkbox5">Bags</label>
+								        		    </div>
+								        		    <div class="checkbox">
+								        		    	<input type="checkbox" id="checkbox6">
+								        		    	<label for="checkbox6">Stationery</label>
+								        		    </div>
+								        		    <div class="checkbox">
+								        		    	<input type="checkbox" id="checkbox7">
+								        		    	<label for="checkbox7">Home Decor</label>
+								        		    </div>
+								        		    <div class="checkbox">
+								        		    	<input type="checkbox" id="checkbox8">
+								        		    	<label for="checkbox8">Minbart Crush</label>
+								        		    </div>
+								        		</form>
+								        	</div>
 								        </div>
 								    </div>
-								    <div class="panel panel-default">
-								        <div class="panel-heading">
-								            <h4 class="panel-title">
-								              <a data-toggle="collapse" data-parent="#categoryAccordion" href="#categorycollapse3">Pricing <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-								            </h4>
-								        </div>
-								        <div id="categorycollapse3" class="panel-collapse collapse in">
-								            <form class="form form--eshop">
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox1">
-								                	<label for="checkbox1">AED 0.00 - AED 999.99 (1)</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox2">
-								                	<label for="checkbox2">AED 1000.00 - AED 1499.99 (16)</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox3">
-								                	<label for="checkbox3">AED 1500.00 - AED 1999.99 (11)</label>
-								                </div>
-								                <div class="checkbox">
-								                	<input type="checkbox" id="checkbox4">
-								                	<label for="checkbox4">AED 2000.00 and above (1)</label>
-								                </div>
-								            </form>
-								        </div>
-								    </div>
+
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div id="designer-accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel-accordion" role="tab" id="designer-heading">
+									    <div class="panel-heading">
+									    	<div class="row">
+									    		<div class="col-xs-10">
+									    			<h4 class="panel-title panel-title--petite">
+									    			  <a data-toggle="collapse" role="button" aria-expanded="true" aria-controls="category-collapse" data-parent="#designer-accordion" href="#designer-collapse">Designers</a>
+									    			</h4>
+									    		</div>
+									    		<div class="col-xs-2 text-right">
+									    			<i class="panel-icon fa fa-angle-down" aria-hidden="true"></i>
+									    		</div>
+									    	</div>
+									    </div>
+									    <div id="designer-collapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="designer-heading">
+									    	<div class="panel-body">
+									    		<form class="form form--eshop">
+									    		    <div class="checkbox">
+									    		    	<input type="checkbox" id="checkbox9">
+									    		    	<label for="checkbox9">Designer 9</label>
+									    		    </div>
+									    		    <div class="checkbox">
+									    		    	<input type="checkbox" id="checkbox10">
+									    		    	<label for="checkbox10">Designer 10</label>
+									    		    </div>
+									    		    <div class="checkbox">
+									    		    	<input type="checkbox" id="checkbox11">
+									    		    	<label for="checkbox11">Designer 11</label>
+									    		    </div>
+									    		    <div class="checkbox">
+									    		    	<input type="checkbox" id="checkbox12">
+									    		    	<label for="checkbox12">Designer 12</label>
+									    		    </div>
+									    		    <div class="checkbox">
+									    		    	<input type="checkbox" id="checkbox13">
+									    		    	<label for="checkbox13">Designer 13</label>
+									    		    </div>
+									    		</form>
+									    	</div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div id="price-accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-accordion">
+									    <div class="panel-heading" role="tab" id="price-heading">
+									    	<div class="row">
+									    		<div class="col-xs-10">
+									    			<h4 class="panel-title panel-title--petite">
+									    				<a data-toggle="collapse" role="button" aria-expanded="true" aria-controls="price-collapse" data-parent="#price-accordion" href="#price-collapse">Pricing </a>
+									    			</h4>
+									    		</div>
+									    		<div class="col-xs-2 text-right">
+									    			<i class="panel-icon fa fa-angle-down" aria-hidden="true"></i>
+									    		</div>
+									    	</div>
+									    </div>
+									    <div id="price-collapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="price-heading">
+									        <div class="panel-body">
+									        	<form class="form form--eshop">
+									        	    <div class="checkbox">
+									        	    	<input type="checkbox" id="checkbox14">
+									        	    	<label for="checkbox14">AED 0.00 - AED 999.99 (1)</label>
+									        	    </div>
+									        	    <div class="checkbox">
+									        	    	<input type="checkbox" id="checkbox15">
+									        	    	<label for="checkbox15">AED 1000.00 - AED 1499.99 (16)</label>
+									        	    </div>
+									        	    <div class="checkbox">
+									        	    	<input type="checkbox" id="checkbox16">
+									        	    	<label for="checkbox16">AED 1500.00 - AED 1999.99 (11)</label>
+									        	    </div>
+									        	    <div class="checkbox">
+									        	    	<input type="checkbox" id="checkbox17">
+									        	    	<label for="checkbox17">AED 2000.00 and above (1)</label>
+									        	    </div>
+									        	</form>
+									        </div>
+									    </div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					
 					<div class="col-md-9">
 						<div class="row">
 							<div class="col-md-12">
