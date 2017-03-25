@@ -1177,3 +1177,182 @@ select{
 .margin-bottom-0 {
 	margin-bottom: 0;
 }
+
+/* Added style by jizni */
+.diary-banner__title,
+.diary-banner__subtitle,
+.diary-banner__meta {
+	color: #000;
+}
+
+.diary-banner__meta a {
+	font-size: 16px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+blockquote {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	line-height: 1.8;
+	color: #000;
+	border-left: 0px;
+	padding: 20px 0px;
+}
+
+.diary-single__img {
+	width: 100%;
+}
+
+.diary-single__image {
+	padding: 25px 0;
+}
+
+.diary-single__caption {
+	font-weight: bold;
+}
+
+.section-diary__body {
+	width: 45%;
+}
+
+.section-diary__body p {
+	padding: 5px 0;
+}
+
+.nav-sorter {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	border-bottom: 2px solid #000;
+}
+
+.nav-sorter > li {
+	display: inline-block;
+	color: #EBEBEB;
+	padding: 6px 12.5px;
+}
+
+.nav-sorter > li > a {
+	text-transform: uppercase;
+	display: block;
+	color: #000;
+}
+
+.nav-sorter li > a:hover,
+.nav-sorter li > a:focus {
+	background-color: #fff;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.nav-sorter li.active > a {
+	background-color: #fff;
+	text-decoration: none;
+	color: #F4EC31;
+	font-weight: bold;
+}
+
+.sort-title {
+	padding-right: 20px !important;
+	padding-left: 0 !important;
+	color: #000 !important;
+}
+
+.designer-section {
+	display: block;
+	padding: 10px 0 !important;
+	margin: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.designer-section li {
+	display: inline-block;
+	padding: 15px 0px;
+}
+
+.designer-letter {
+	font-size: 40px;
+	padding: 15px 10px !important;
+	color: #000 !important;
+	float: left;
+	width: 5%;
+}
+
+.designers-perletter {
+	width: 95%;
+	float: right;
+}
+
+.designer-placeholder {
+	margin-bottom: 10px;
+	border: 6px solid #fff;
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.designer-placeholder:hover {
+	border: 6px solid #F4EC31;
+}
+
+.designer-section li a {
+	font-size: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+
+.designer-section li a:hover, 
+.designer-section li a:focus {
+	text-decoration: underline;
+}
+
+.designer-modal__body {
+	top: 8%;
+}
+
+.designer-modal__content {
+	padding: 20px;
+	background: #FFF;
+}
+
+.designer-modal__content img {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.designer-modal__content h4 {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.designer-modal__content h5 {
+	margin: 0;
+	font-size: 16px;
+}
+
+.designer-content__bio {
+	padding: 10px 0;
+}
+
+.designer-modal__close {
+	position: absolute;
+	left: 101%;
+	top: -5%;
+}
+
+.close {
+	opacity: 1;
+}
+
+.close-x {
+	font-size: 24px;
+	color: #FFF;
+}
