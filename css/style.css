@@ -245,6 +245,10 @@ hr {
 	color: #fff;
 }
 
+.button--black-checkout{
+	width:100%;
+}
+
 .button--white {
 	background-color: #fff;
 	border: 1px solid #000;
@@ -1355,4 +1359,60 @@ blockquote {
 .close-x {
 	font-size: 24px;
 	color: #FFF;
+}
+
+/* Cart */
+.table-bordered--cart{
+	border:0;
+}
+
+.table-bordered--cart>tbody>tr>th{
+	border:0;
+	border-bottom:2px solid #000;
+	font-size:18px;
+	font-weight:100;
+}
+
+.table-bordered--cart>tbody>tr>td{
+	border:0;
+	border-bottom:1px solid #EBEBEB;;
+	vertical-align: middle;
+
+}
+
+.table-bordered--cart .cart-item{
+	color:#000;
+	display: table;
+	min-height: 100px;
+}
+
+.table-bordered--cart .fa-close{
+	color:#000;
+}
+
+.table-bordered--cart .cart-item .cart-item__image{
+	float:left;
+}
+
+.table-bordered--cart .cart-item .cart-item__content{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.table-bordered--cart .cart-item .cart-item__content p{
+	margin:0;
+	padding-left:20px;
+}
+
+.table-bordered--cart  .total{
+	font-size:20px;
+}
+
+.table-bordered--cart .total-price{
+	color:#00D4F7;
+	font-size:20px;
+}
+
+.border-0 td{
+	border:0!important;
 }
