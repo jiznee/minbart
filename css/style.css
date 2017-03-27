@@ -1416,3 +1416,23 @@ blockquote {
 .border-0 td{
 	border:0!important;
 }
+
+/* Tablet Portrait */
+@media (max-width:1024px) and (min-width:768px) and (orientation:portrait){
+	
+}
+
+/* Tablet Landscape */
+@media (max-width:1024px) and (min-width:768px) and (orientation:landscape){
+	
+}
+
+/* Mobile Portrait */
+@media (max-width:767px) and (min-width:320px) and (orientation:portrait){
+	
+}
+
+/* Mobile Landscape */
+@media (max-width:767px) and (min-width:320px) and (orientation:landscape){
+	
+}
