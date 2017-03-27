@@ -203,6 +203,16 @@ hr {
 }
 
 /* Nav Tabs */
+.nav-tabs.nav-justified{
+	display: table;
+	width:100%;
+}
+
+.nav-tabs.nav-justified>li{
+	width: 33.33%;
+	display: table-cell;
+}
+
 .nav-tabs.nav-justified > li > a {
 	border-radius: 0;
 	font-size: 20px;
@@ -1458,6 +1468,11 @@ blockquote {
 	    margin-bottom: 40px;
 	}
 
+	.nav-tabs.nav-justified > li > a{
+		height: 70px;
+		padding-left:0;
+	}
+
 	.footer{
 		padding-top:10px;
 	}
@@ -1526,6 +1541,19 @@ blockquote {
 
 	.col-article {
 	    margin-bottom: 40px;
+	}
+
+	.nav-tabs.nav-justified {
+		display: block;
+		overflow-x: scroll;
+		white-space: nowrap;
+		width:100%;
+	}
+
+
+	.nav-tabs.nav-justified >li{
+		display: inline-block;
+		width:auto;
 	}
 
 	/* Footer */
