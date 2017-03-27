@@ -69,6 +69,29 @@ $(document).ready(function() {
 			slidesToScroll: 1,
 			prevArrow: '.items-prev',
 			nextArrow: '.items-next',
+			responsive: [
+                {
+                  breakpoint: 1200,
+                  settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 798,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+            ]
 		});
 
 
@@ -83,6 +106,29 @@ $(document).ready(function() {
 			slidesToScroll: 1,
 			prevArrow: '.feed-items-prev',
 			nextArrow: '.feed-items-next',
+			responsive: [
+                {
+                  breakpoint: 1200,
+                  settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 798,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+            ]
 		});
 
 
