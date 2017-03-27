@@ -191,6 +191,10 @@ hr {
 	transform: scale(1.05);
 }
 
+.col-article--grid-wrapper .col-sm-6:nth-child(2n+1){
+	clear: both;
+}
+
 .col-article-meta a {
 	font-size: 18px;
 	color: inherit;
