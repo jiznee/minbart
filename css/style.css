@@ -1446,6 +1446,14 @@ blockquote {
 		padding:30px 0;
 	}
 
+	.row-header--underline-bot h4{
+		margin-top:30px;
+	}
+
+	.col-article {
+	    margin-bottom: 40px;
+	}
+
 	.footer{
 		padding-top:10px;
 	}
@@ -1504,6 +1512,18 @@ blockquote {
 		padding:30px 0;
 	}
 
+	.row-section h3 {
+	    margin-top: 10px;
+	}
+
+	.row-header--underline-bot h4{
+		margin-top:30px;
+	}
+
+	.col-article {
+	    margin-bottom: 40px;
+	}
+
 	/* Footer */
 	.footer{
 		padding-top:10px;
@@ -1554,6 +1574,18 @@ blockquote {
 	/* Section */
 	.section{
 		padding:30px 0;
+	}
+
+	.row-section h3 {
+	    margin-top: 10px;
+	}
+
+	.row-header--underline-bot h4{
+		margin-top:30px;
+	}
+
+	.col-article {
+	    margin-bottom: 40px;
 	}
 
 	/* Footer */
